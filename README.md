@@ -1,5 +1,5 @@
 # fhem-arm
-fhem docker images for arm architectures like the Raspberry Pi
+fhem docker image for arm architectures like the Raspberry Pi
 
 This is a build of fhem home automation running in docker and can build for arm architectures like the Raspberry Pi.
 
@@ -13,7 +13,7 @@ Add `-v /path/to/your/fhem.cfg:/opt/fhem/fhem.cfg` to the command above.
 
 ## Persisting fhem data
 
-Add `-v`
+Add `-v /path/to/your/log:/opt/fhem/log` to the command above. If you have other paths configured for storing the state file, add them accordingly.
 
 ## Misc
 
